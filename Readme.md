@@ -7,21 +7,21 @@ Due to keeping consistency in our data transfer with API's we need to make sure 
 To install it you can simply do the following command:
 
 ``` 
-npm i convert-numbers
+npm i convert-numbers-to-english
 or
-yarn install convert-numbers
+yarn install convert-numbers-to-english
 ```
 
 to include with `ES5` or common js you can simply do this:
 
 ```
-var ConvertNumbers = require('convert-numbers');
+var ConvertNumbers = require('convert-numbers-to-english');
 ```
 
 or to include with `ES6` you simply do this one:
 
 ```
-import ConvertNumbers from 'convert-numbers'
+import ConvertNumbers from 'convert-numbers-to-english'
 ```
 
 then to use it within your application you can do it just like this:
