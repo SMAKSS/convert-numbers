@@ -1,6 +1,6 @@
 {
   "name": "convert-numbers-to-english",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package exists to convert Arabic and Persian numbers to their English equivalent to avoiding data inconsistency.",
   "main": "index.min.js",
   "repository": {
