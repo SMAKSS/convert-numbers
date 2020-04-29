@@ -1,0 +1,23 @@
+{
+  "name": "convert-numbers",
+  "version": "1.0.0",
+  "description": "This package exists to convert Arabic and Persian numbers to their English equivalent to avoiding data inconsistency.",
+  "main": "index.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMAliKSS/convert-numbers.git"
+  },
+  "keywords": [
+    "npm",
+    "yarn",
+    "convert-to-english-numbers",
+    "arabic-numbers",
+    "persian-numbers"
+  ],
+  "author": "SMAKSS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SMAliKSS/convert-numbers/issues"
+  },
+  "homepage": "https://github.com/SMAliKSS/convert-numbers#readme"
+}
