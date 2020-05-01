@@ -9,7 +9,7 @@ To install it you can simply do the following command:
 ``` 
 npm i convert-numbers-to-english
 or
-yarn install convert-numbers-to-english
+yarn add convert-numbers-to-english
 ```
 
 to include with `ES5` or common js you can simply do this:
