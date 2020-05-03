@@ -1,6 +1,6 @@
 {
-  "name": "convert-numbers-to-english",
-  "version": "1.0.3",
+  "name": "@smakss/convert-numbers",
+  "version": "1.0.4",
   "description": "This package exists to convert Arabic and Persian numbers to their English equivalent to avoiding data inconsistency.",
   "main": "index.min.js",
   "repository": {
@@ -10,12 +10,18 @@
   "keywords": [
     "npm",
     "yarn",
-    "convert-to-english-numbers",
+    "digit",
+    "SMAKSS",
+    "number",
+    "numerals",
     "arabic-numbers",
-    "persian-numbers"
+    "persian-numbers",
+    "digit-conversion",
+    "number-conversion",
+    "convert-to-english-numbers"
   ],
   "author": "SMAKSS",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SMAliKSS/convert-numbers/issues"
   },
