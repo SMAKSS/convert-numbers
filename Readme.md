@@ -8,7 +8,7 @@ Due to keeping consistency in our data transfer with API's we need to make sure 
 
 To install it you can simply do the following command:
 
-``` 
+```
 npm i @smakss/convert-numbers
 or
 yarn add @smakss/convert-numbers
@@ -27,6 +27,7 @@ import ConvertNumbers from '@smakss/convert-numbers'
 ```
 
 then to use it within your application you can do it just like this:
+
 ```
 ConvertNumbers('۱۲۳۴۵۶۷۸۹۰') // It will return 1234567890 in string format.
 ```
