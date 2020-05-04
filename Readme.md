@@ -1,6 +1,6 @@
 # Convert numbers
 
-![npm](https://img.shields.io/npm/v/@smakss/convert-numbers) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@smakss/convert-numbers)
+![npm](https://img.shields.io/npm/v/@smakss/convert-numbers) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@smakss/convert-numbers) ![NPM](https://img.shields.io/npm/l/@smakss/convert-numbers) ![npm](https://img.shields.io/npm/dm/@smakss/convert-numbers) ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@smakss/convert-numbers)
 
 Due to keeping consistency in our data transfer with API's we need to make sure digits or numbers entered by user inputs have always transferred by English. Since users could always fill data with different keyboard settings we need to make sure that we don't send Arabic or Persian numbers to our database. So to avoid such an inconsistency we should always translate our numbers or prevent a user from entering unwanted data. Convert numbers created for this cause to make sure every digit input is in standard format of it.
 
