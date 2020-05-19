@@ -1,6 +1,6 @@
 {
   "name": "@smakss/convert-numbers",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This package exists to convert Arabic and Persian numbers to their English equivalent to avoiding data inconsistency.",
   "type": "module",
   "main": "./index.cjs",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SMAliKSS/convert-numbers.git"
+    "url": "git+https://github.com/SMAKSS/convert-numbers.git"
   },
   "keywords": [
     "ES5",
