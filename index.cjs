@@ -1,5 +1,5 @@
 'use strict'
-module.exports = function ConvertNumbers(inputValue) {
+function ConvertNumbers(inputValue) {
   return inputValue
     .replace(/[\u0660-\u0669]/g, function (number) {
       return number.charCodeAt(0) - 1632
@@ -8,3 +8,5 @@ module.exports = function ConvertNumbers(inputValue) {
       return number.charCodeAt(0) - 1776
     })
 }
+
+module.exports = ConvertNumbers
