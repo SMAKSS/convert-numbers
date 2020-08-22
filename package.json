@@ -1,6 +1,6 @@
 {
   "name": "@smakss/convert-numbers",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "This package exists to convert Arabic and Persian numbers to their English equivalent to avoiding data inconsistency.",
   "type": "module",
   "main": "./index.cjs",
@@ -13,14 +13,14 @@
     "url": "git+https://github.com/SMAKSS/convert-numbers.git"
   },
   "keywords": [
-    "ES5",
-    "ES6",
     "npm",
     "yarn",
     "digit",
     "SMAKSS",
     "number",
     "numerals",
+    "CommonJS",
+    "EcmaScript",
     "arabic-numbers",
     "persian-numbers",
     "digit-conversion",
