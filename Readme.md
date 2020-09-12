@@ -32,3 +32,7 @@ then to use it within your application you can do it just like this:
 ConvertNumbers('۱۲۳۴۵۶۷۸۹۰') // It will return 1234567890 in string format.
 // If you don't provide any input it will return undefined.
 ```
+
+## Demo
+
+You can check the [working demo](https://runkit.com/smakss/convert-numbers) in runkit.
