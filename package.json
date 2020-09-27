@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/SMAKSS/convert-numbers/issues"
   },
-  "homepage": "https://github.com/SMAKSS/convert-numbers#readme"
+  "homepage": "https://github.com/SMAKSS/convert-numbers#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
