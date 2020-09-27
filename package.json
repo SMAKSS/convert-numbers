@@ -1,7 +1,7 @@
 {
   "name": "@smakss/convert-numbers",
-  "version": "1.1.5",
-  "description": "Simply convert Arabic and/or Persian numbers to their English equivalent to avoiding data inconsistency.",
+  "version": "1.1.4",
+  "description": "This package exists to convert Arabic and Persian numbers to their English equivalent to avoiding data inconsistency.",
   "type": "module",
   "main": "./index.cjs",
   "exports": {
