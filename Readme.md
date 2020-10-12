@@ -8,7 +8,7 @@ Due to keeping consistency in our data transfer with API's we need to make sure 
 
 To install it you can simply do the following command:
 
-```
+```bash
 npm i @smakss/convert-numbers
 or
 yarn add @smakss/convert-numbers
@@ -16,13 +16,13 @@ yarn add @smakss/convert-numbers
 
 to include it with common js module you should do this:
 
-```
+```js
 var ConvertNumbers = require('@smakss/convert-numbers');
 ```
 
 and to include it with ECMAscript module you can simply do this one:
 
-```
+```js
 import ConvertNumbers from '@smakss/convert-numbers';
 ```
 
