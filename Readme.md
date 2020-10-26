@@ -36,7 +36,14 @@ ConvertNumbers();
 ```
 
 ```js
-ConvertNumbers('۱۲۳۴۵۶۷۸۹۰'); 
+ConvertNumbers('۱۲۳۴۵۶۷۸۹۰');
+
+// Result: '1234567890'
+```
+
+```js
+ConvertNumbers('١٢٣٤٥٦٧٨٩٠');
+
 
 // Result: '1234567890'
 ```
