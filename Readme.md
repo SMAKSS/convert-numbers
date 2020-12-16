@@ -44,7 +44,6 @@ ConvertNumbers('۱۲۳۴۵۶۷۸۹۰');
 ```js
 ConvertNumbers('١٢٣٤٥٦٧٨٩٠');
 
-
 // Result: '1234567890'
 ```
 
