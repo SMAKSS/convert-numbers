@@ -1,6 +1,6 @@
 {
   "name": "@smakss/convert-numbers",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Simply convert Arabic and/or Persian numbers to their English equivalent to avoiding data inconsistency.",
   "type": "module",
   "main": "./index.cjs",
