@@ -17,32 +17,32 @@ yarn add @smakss/convert-numbers
 to include it with common js module you should do this:
 
 ```js
-var ConvertNumbers = require('@smakss/convert-numbers');
+var ConvertNumbers = require("@smakss/convert-numbers");
 ```
 
 and to include it with ECMAscript module you can simply do this one:
 
 ```js
-import ConvertNumbers from '@smakss/convert-numbers';
+import ConvertNumbers from "@smakss/convert-numbers";
 ```
 
 then to use it within your application you can do it just like this:
 
 ```js
-ConvertNumbers(); 
+ConvertNumbers();
 
-// Result: undefined 
+// Result: undefined
 // If you don't provide any input it will return undefined.
 ```
 
 ```js
-ConvertNumbers('۱۲۳۴۵۶۷۸۹۰');
+ConvertNumbers("۱۲۳۴۵۶۷۸۹۰");
 
 // Result: '1234567890'
 ```
 
 ```js
-ConvertNumbers('١٢٣٤٥٦٧٨٩٠');
+ConvertNumbers("١٢٣٤٥٦٧٨٩٠");
 
 // Result: '1234567890'
 ```
@@ -50,3 +50,7 @@ ConvertNumbers('١٢٣٤٥٦٧٨٩٠');
 ## Demo
 
 You can check the [working demo](https://runkit.com/smakss/convert-numbers) in runkit.
+
+or
+
+[![View @smakss/convert-numbers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/smakss-convert-numbers-bstmfj?fontsize=14&hidenavigation=1&theme=dark)

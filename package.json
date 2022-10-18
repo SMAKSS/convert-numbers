@@ -1,17 +1,14 @@
 {
-  "name": "@smakss/convert-numbers",
-  "version": "1.3.3",
+  "author": "SMAKSS",
+  "bugs": {
+    "url": "https://github.com/SMAKSS/convert-numbers/issues"
+  },
   "description": "Simply convert Arabic and/or Persian numbers to their English equivalent to avoiding data inconsistency.",
-  "type": "module",
-  "main": "./index.cjs",
   "exports": {
     "import": "./index.mjs",
     "require": "./index.cjs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SMAKSS/convert-numbers.git"
-  },
+  "homepage": "https://github.com/SMAKSS/convert-numbers#readme",
   "keywords": [
     "npm",
     "yarn",
@@ -27,10 +24,13 @@
     "number-conversion",
     "convert-to-english-numbers"
   ],
-  "author": "SMAKSS",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SMAKSS/convert-numbers/issues"
+  "main": "./index.cjs",
+  "name": "@smakss/convert-numbers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMAKSS/convert-numbers.git"
   },
-  "homepage": "https://github.com/SMAKSS/convert-numbers#readme"
+  "type": "module",
+  "version": "1.3.4"
 }
