@@ -4,6 +4,14 @@
 
 Due to keeping consistency in our data transfer with API's we need to make sure digits or numbers entered by user inputs have always transferred by English. Since users could always fill data with different keyboard settings we need to make sure that we don't send Arabic or Persian numbers to our database. So to avoid such an inconsistency we should always translate our numbers or prevent a user from entering unwanted data. Convert numbers created for this cause to make sure every digit input is in standard format of it.
 
+## Demo
+
+You can check the [working demo](https://runkit.com/smakss/convert-numbers) in runkit.
+
+or
+
+[![View @smakss/convert-numbers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/smakss-convert-numbers-bstmfj?fontsize=14&hidenavigation=1&theme=dark)
+
 ## How it works?
 
 To install it you can simply do the following command:
@@ -47,10 +55,10 @@ ConvertNumbers("١٢٣٤٥٦٧٨٩٠");
 // Result: '1234567890'
 ```
 
-## Demo
+## Contributing
 
-You can check the [working demo](https://runkit.com/smakss/convert-numbers) in runkit.
+Interested in making contributions to this project? Please see [CONTRIBUTING.md](https://github.com/SMAKSS/convert-numbers/blob/master/.github/CONTRIBUTING.md) for guidelines and details.
 
-or
+## Code of Conduct
 
-[![View @smakss/convert-numbers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/smakss-convert-numbers-bstmfj?fontsize=14&hidenavigation=1&theme=dark)
+We value and prioritize the well-being of all our contributors and users. To ensure that this project remains a welcoming space for everyone, please refer to our [Code of Conduct](https://github.com/SMAKSS/convert-numbers/blob/master/.github/CODE_OF_CONDUCT.md).
