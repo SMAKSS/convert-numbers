@@ -1,64 +1,64 @@
-# Convert numbers
+# Convert Numbers
 
-![npm](https://img.shields.io/npm/v/@smakss/convert-numbers) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@smakss/convert-numbers) ![NPM](https://img.shields.io/npm/l/@smakss/convert-numbers) ![npm](https://img.shields.io/npm/dt/@smakss/convert-numbers) ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@smakss/convert-numbers)
+![npm](https://img.shields.io/npm/v/@smakss/convert-numbers) ![NPM](https://img.shields.io/npm/l/@smakss/convert-numbers) ![npm](https://img.shields.io/npm/dt/@smakss/convert-numbers) ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@smakss/convert-numbers)
 
-Due to keeping consistency in our data transfer with API's we need to make sure digits or numbers entered by user inputs have always transferred by English. Since users could always fill data with different keyboard settings we need to make sure that we don't send Arabic or Persian numbers to our database. So to avoid such an inconsistency we should always translate our numbers or prevent a user from entering unwanted data. Convert numbers created for this cause to make sure every digit input is in standard format of it.
+Convert Numbers is a utility package that helps ensure consistency in data transfer by converting Arabic and Persian numerals to English numerals. This is particularly useful when user inputs can come from different keyboard settings, and there's a need to standardize all digits to English format before sending data to a database or processing it further.
 
 ## Demo
 
-You can check the [working demo](https://runkit.com/smakss/convert-numbers) in runkit.
+You can check the [working demo](https://runkit.com/smakss/convert-numbers) on RunKit.
 
-or
+Or
 
 [![View @smakss/convert-numbers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/smakss-convert-numbers-bstmfj?fontsize=14&hidenavigation=1&theme=dark)
 
-## How it works?
+## Installation
 
-To install it you can simply do the following command:
+To install the package, you can use npm or yarn with the following commands:
 
 ```bash
 npm i @smakss/convert-numbers
-or
+# or
 yarn add @smakss/convert-numbers
 ```
 
-to include it with common js module you should do this:
+## Usage
+
+Import the `convertNumbers` function into your project using CommonJS or ECMAScript modules:
+
+CommonJS:
 
 ```js
-var ConvertNumbers = require("@smakss/convert-numbers");
+const ConvertNumbers = require('@smakss/convert-numbers');
 ```
 
-and to include it with ECMAscript module you can simply do this one:
+ECMAScript Modules:
 
 ```js
-import ConvertNumbers from "@smakss/convert-numbers";
+import ConvertNumbers from '@smakss/convert-numbers';
 ```
 
-then to use it within your application you can do it just like this:
+Then, use the function as follows:
 
 ```js
-ConvertNumbers();
+// Returns '1234567890' for Persian numbers
+console.log(ConvertNumbers('۱۲۳۴۵۶۷۸۹۰'));
 
-// Result: undefined
-// If you don't provide any input it will return undefined.
+// Returns '1234567890' for Arabic numbers
+console.log(ConvertNumbers('١٢٣٤٥٦٧٨٩٠'));
+
+// Returns "" for no input
+console.log(ConvertNumbers());
 ```
 
-```js
-ConvertNumbers("۱۲۳۴۵۶۷۸۹۰");
+## Documentation
 
-// Result: '1234567890'
-```
-
-```js
-ConvertNumbers("١٢٣٤٥٦٧٨٩٠");
-
-// Result: '1234567890'
-```
+For more detailed examples and function usage, please refer to the JSDoc comments within the code.
 
 ## Contributing
 
-Interested in making contributions to this project? Please see [CONTRIBUTING.md](https://github.com/SMAKSS/convert-numbers/blob/master/.github/CONTRIBUTING.md) for guidelines and details.
+Contributions to the project are welcome! Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
 
 ## Code of Conduct
 
-We value and prioritize the well-being of all our contributors and users. To ensure that this project remains a welcoming space for everyone, please refer to our [Code of Conduct](https://github.com/SMAKSS/convert-numbers/blob/master/.github/CODE_OF_CONDUCT.md).
+To maintain a welcoming and positive community, please see our [Code of Conduct](./CODE_OF_CONDUCT.md).
