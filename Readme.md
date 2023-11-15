@@ -6,9 +6,7 @@ Convert Numbers is a utility package that helps ensure consistency in data trans
 
 ## Demo
 
-You can check the [working demo](https://runkit.com/smakss/convert-numbers) on RunKit.
-
-Or
+You can check the working demo on CodeSandbox:
 
 [![View @smakss/convert-numbers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/smakss-convert-numbers-bstmfj?fontsize=14&hidenavigation=1&theme=dark)
 
