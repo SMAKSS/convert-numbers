@@ -3,7 +3,7 @@
   "bugs": {
     "url": "https://github.com/SMAKSS/convert-numbers/issues"
   },
-  "description": "Simply convert Arabic and/or Persian numbers to their English equivalent to avoiding data inconsistency.",
+  "description": "Convert Numbers is a robust utility for transforming Arabic and Persian numerals into English, ensuring uniformity and preventing data inconsistencies in multilingual settings. It is ideal for standardizing user inputs and database entries across diverse keyboard layouts.",
   "devDependencies": {
     "@commitlint/cli": "^18.2.0",
     "@commitlint/config-conventional": "^18.1.0",
@@ -83,5 +83,5 @@
   },
   "type": "module",
   "types": "lib",
-  "version": "2.0.2"
+  "version": "2.0.3"
 }
