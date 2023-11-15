@@ -27,9 +27,42 @@
     "import": "./dist/esm/index.js",
     "require": "./dist/cjs/index.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/SMAKSS/convert-numbers#readme",
-  "keywords": ["npm", "yarn", "digit", "SMAKSS", "number", "numerals", "CommonJS", "EcmaScript", "Typescript", "arabic-numbers", "persian-numbers", "digit-conversion", "number-conversion", "convert-to-english-numbers"],
+  "keywords": [
+    "npm",
+    "yarn",
+    "digit",
+    "SMAKSS",
+    "number",
+    "numerals",
+    "CommonJS",
+    "EcmaScript",
+    "Typescript",
+    "arabic-numbers",
+    "persian-numbers",
+    "digit-conversion",
+    "number-conversion",
+    "convert-to-english-numbers",
+    "convert-numbers",
+    "numeral-transformation",
+    "arabic-to-english-numerals",
+    "persian-to-english-numerals",
+    "number-standardization",
+    "multilingual-numerals",
+    "digit-standardization",
+    "cross-language-numbers",
+    "keyboard-input-conversion",
+    "data-consistency",
+    "input-normalization",
+    "internationalization",
+    "i18n-numerals",
+    "digit-localization",
+    "numeric-data-processing",
+    "script-conversion"
+  ],
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -50,5 +83,5 @@
   },
   "type": "module",
   "types": "lib",
-  "version": "2.0.1"
+  "version": "2.0.2"
 }
