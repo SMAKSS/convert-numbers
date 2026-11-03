@@ -27,7 +27,7 @@ jobs:
 
       - name: Install npm CLI for trusted publishing
         run: |
-          pnpm add --global npm@12.2.1
+          pnpm add --global npm@latest
           npm --version
 
       - name: Build package
