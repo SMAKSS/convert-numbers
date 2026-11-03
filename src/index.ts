@@ -29,7 +29,7 @@ const DIGIT_MAP: Record<string, string> = {
  * Converts Persian or Arabic numbers to English numbers.
  *
  * @param {string} inputValue - The string containing Persian or Arabic numbers to convert.
- * @returns {string} - The string with Persian or Arabic numbers converted to English, or the original string if an error occurs.
+ * @returns {string} - The input string with Arabic-Indic and Persian digits converted to English digits.
  *
  * @example
  * // returns "123"
@@ -46,30 +46,20 @@ const DIGIT_MAP: Record<string, string> = {
 function convertNumbers(inputValue: string): string {
   if (!inputValue) return '';
 
-  try {
-    if (inputValue.length <= THRESHOLD) {
-      return inputValue
-        .replace(/[\u0660-\u0669]/g, (c) =>
-          String.fromCharCode(c.charCodeAt(0) - 0x0660 + 0x0030)
-        )
-        .replace(/[\u06F0-\u06F9]/g, (c) =>
-          String.fromCharCode(c.charCodeAt(0) - 0x06f0 + 0x0030)
-        );
-    } else {
-      return inputValue
-        .split('')
-        .map((char) => DIGIT_MAP[char] ?? char)
-        .join('');
-    }
-  } catch (error) {
-    console.error('Error in convertNumbers function:', error);
-
-    let result = '';
-    for (const char of inputValue) {
-      result += DIGIT_MAP[char] || char;
-    }
-    return result;
+  if (inputValue.length <= THRESHOLD) {
+    return inputValue
+      .replace(/[\u0660-\u0669]/g, (c) =>
+        String.fromCharCode(c.charCodeAt(0) - 0x0660 + 0x0030)
+      )
+      .replace(/[\u06F0-\u06F9]/g, (c) =>
+        String.fromCharCode(c.charCodeAt(0) - 0x06f0 + 0x0030)
+      );
   }
+
+  return inputValue
+    .split('')
+    .map((char) => DIGIT_MAP[char] ?? char)
+    .join('');
 }
 
 export default convertNumbers;

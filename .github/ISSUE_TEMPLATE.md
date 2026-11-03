@@ -12,7 +12,7 @@ For bug reports, please fill out the information below to help us understand the
 - `@smakss/convert-numbers` version:
 - Framework version (`react`, `react-native`, `Next.js`, `Remix` etc.`):
 - `node.js` version:
-- `npm` (or `yarn`) version:
+- package manager and version (`npm`, `pnpm`, etc.):
 
 ## Code Snippet
 <!-- Please provide any relevant code snippets or examples here -->
