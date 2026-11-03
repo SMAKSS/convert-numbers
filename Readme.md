@@ -1,6 +1,6 @@
 # Convert Numbers
 
-![npm](https://img.shields.io/npm/v/@smakss/convert-numbers) ![NPM](https://img.shields.io/npm/l/@smakss/convert-numbers) ![npm](https://img.shields.io/npm/dt/@smakss/convert-numbers) ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@smakss/convert-numbers)
+![npm](https://img.shields.io/npm/v/@smakss/convert-numbers) ![NPM](https://img.shields.io/npm/l/@smakss/convert-numbers) ![npm](https://img.shields.io/npm/dt/@smakss/convert-numbers) ![npm unpacked size](https://img.shields.io/npm/unpacked-size/%40smakss%2Fconvert-numbers)
 
 Convert Numbers is a utility package designed to ensure consistency in data transfer by converting Arabic and Persian numerals to English numerals. This tool is essential when user inputs might originate from different keyboard settings, requiring standardization of all digits to English format before further processing or database storage.
 
